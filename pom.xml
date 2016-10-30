@@ -51,7 +51,13 @@
 	    <artifactId>mariadb-java-client</artifactId>
 	    <version>1.5.3</version>
 	</dependency>
-    
+	
+	<dependency>
+		<groupId>org.eclipse.persistence</groupId>
+		<artifactId>javax.persistence</artifactId>
+		<version>2.1.0-RC1</version>
+	</dependency>
+
   </dependencies>
   <build>
     <finalName>App1</finalName>

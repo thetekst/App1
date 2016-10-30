@@ -40,6 +40,7 @@ public class UserController {
 		model.addAttribute("login", user.getLogin());
 		model.addAttribute("fio", user.getFio());
 		model.addAttribute("phone", user.getPhone());
-		return "showResult";
+		return "Success";
+// return "showResult";
 	}
 }
