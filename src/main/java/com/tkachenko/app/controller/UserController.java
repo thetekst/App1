@@ -41,6 +41,5 @@ public class UserController {
 		model.addAttribute("fio", user.getFio());
 		model.addAttribute("phone", user.getPhone());
 		return "Success";
-// return "showResult";
 	}
 }
